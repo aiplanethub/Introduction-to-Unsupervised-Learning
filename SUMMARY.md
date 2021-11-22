@@ -2,7 +2,6 @@
 
 * [Overview](README.md)
 * [Module 1: Introduction](module-1-introduction.md)
-* [Page 1](page-1.md)
 * [Module 2: Clustering Analysis and Techniques](module-2-clustering-analysis-and-techniques/README.md)
   * [Clustering](module-2-clustering-analysis-and-techniques/clustering.md)
   * [Clustering Algorithms: Hierarchical Clustering](module-2-clustering-analysis-and-techniques/clustering-algorithms-hierarchical-clustering.md)

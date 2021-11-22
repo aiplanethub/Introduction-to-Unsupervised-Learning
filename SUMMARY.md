@@ -1,3 +1,4 @@
 # Table of contents
 
-* [Page 1](README.md)
+* [Overview](README.md)
+* [Module 1](module-1.md)

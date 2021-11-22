@@ -2,3 +2,13 @@
 
 * [Overview](README.md)
 * [Module 1: Introduction](module-1-introduction.md)
+* [Module 2: Clustering Analysis and Techniques](module-2-clustering-analysis-and-techniques/README.md)
+  * [Clustering](module-2-clustering-analysis-and-techniques/clustering.md)
+  * [Clustering Algorithms: Hierarchical Clustering](module-2-clustering-analysis-and-techniques/clustering-algorithms-hierarchical-clustering.md)
+  * [Clustering Algorithms: K-Means](module-2-clustering-analysis-and-techniques/clustering-algorithms-k-means.md)
+  * [Evaluating Unsupervised Learning Models](module-2-clustering-analysis-and-techniques/evaluating-unsupervised-learning-models.md)
+* [Module 3: Dimensionality Reduction and Techniques](module-3-dimensionality-reduction-and-techniques/README.md)
+  * [Dimensionality Reduction](module-3-dimensionality-reduction-and-techniques/dimensionality-reduction.md)
+  * [Linear Dimensionality Reduction Methods](module-3-dimensionality-reduction-and-techniques/linear-dimensionality-reduction-methods.md)
+  * [Non - Linear Dimensionality Reduction Methods](module-3-dimensionality-reduction-and-techniques/non-linear-dimensionality-reduction-methods.md)
+  * [Auto-Encoders for Dimensionality Reduction](module-3-dimensionality-reduction-and-techniques/auto-encoders-for-dimensionality-reduction.md)

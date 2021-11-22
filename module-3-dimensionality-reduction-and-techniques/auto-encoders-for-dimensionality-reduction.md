@@ -20,11 +20,11 @@ An autoencoder is composed of two parts :
 1. **Encoder: **compresses the input into a latent-space** **representation.
 2. **Decoder: **reconstruct the input from the latent space** **representation.
 
-![](broken-reference)
+![](<../.gitbook/assets/image (16).png>)
 
 ### Example of Image reconstruction with dimensionality reduction
 
-![](broken-reference)
+![](<../.gitbook/assets/image (12).png>)
 
 You might notice that the reconstructed images are a little blurry and not so detailed. But, they still retain the same structure.
 

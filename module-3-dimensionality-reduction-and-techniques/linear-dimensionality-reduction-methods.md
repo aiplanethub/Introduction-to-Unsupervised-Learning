@@ -70,20 +70,20 @@ Here’s a brief non-technical summary of PCA’s working:
 * We are going to calculate a matrix that summarizes how our variables all relate to one another.
 * We’ll then break this matrix down into two separate components: direction and magnitude. We can then understand the “directions” of our data and its “magnitude” (or how “important” each direction is).
 
-![](broken-reference)
+![](<../.gitbook/assets/image (40).png>)
 
 * The figure displays the two main directions in this data: the “red direction” and the “green direction.”
 * In this case, the “red direction” is the more important one. Can you understand why? (Hint: What would fitting a line of best fit to this data look like?)
 * We will transform our original data to align with these important directions (which are combinations of our original variables). The figure below has the same exact data as above, but transformed so that the x-and y-axes are now the “red direction” and “green direction.” What would the line of best fit look like here?
 * The red and green directions we’re talking about are the **principal** **components**, hence the name!
 
-![](broken-reference)
+![](<../.gitbook/assets/image (17).png>)
 
 * While the visual example here is two-dimensional (and thus we have two “directions”), think about a case where our data has more dimensions.
 * By identifying which “directions” are most “important,” we can compress or project our data into a smaller space by dropping the “directions” that are the “least important.”
 * By projecting our data into a smaller space, we’re reducing the dimensionality of our feature space… but because we’ve transformed our data in these different “directions,” we’ve made sure to keep all original variables in our model!
 
-![](broken-reference)
+![](<../.gitbook/assets/image (10).png>)
 
 Note two things in the above graphic:
 
@@ -157,4 +157,4 @@ ICA cannot uncover non-linear relationships of the dataset. ICA does not tell us
 * PCA: vectors are orthogonal
 * ICA vectors are **not orthogonal**
 
-![](broken-reference)
+![](<../.gitbook/assets/image (35).png>)

@@ -16,7 +16,7 @@
 
 Hierarchical clustering involves creating clusters that have a predetermined ordering from top to bottom. For example, all files and folders on the hard disk are organized in a hierarchy. There are two types of hierarchical clustering, Divisive and Agglomerative.
 
-![](broken-reference)
+![](<../.gitbook/assets/image (25).png>)
 
 ### Divisive method
 
@@ -48,7 +48,7 @@ There are a variety of possible metrics to set how the distance between each clu
 
 Single-linkage (nearest neighbour) is the shortest distance between a pair of observations in two clusters. For example, the distance between clusters “r” and “s” to the left is equal to the length of the arrow between their two closest points.
 
-![](broken-reference)
+![](<../.gitbook/assets/image (44).png>)
 
 It can sometimes produce clusters where observations in different clusters are closer together than to observations within their own clusters. These clusters can appear spread-out.
 
@@ -56,7 +56,7 @@ It can sometimes produce clusters where observations in different clusters are c
 
 Complete-linkage (farthest neighbour) is where distance is measured between the farthest pair of observations in two clusters. For example, the distance between clusters “r” and “s” to the left is equal to the length of the arrow between their two furthest points.
 
-![](broken-reference)
+![](<../.gitbook/assets/image (27).png>)
 
 This method usually produces tighter clusters than single-linkage, but these tight clusters can end up very close together. Along with average-linkage, it is one of the more popular distance metrics.
 
@@ -64,7 +64,7 @@ This method usually produces tighter clusters than single-linkage, but these tig
 
 Average-linkage is where the distance between each pair of observations in each cluster are added up and divided by the number of pairs to get an average inter-cluster distance. For example, the distance between clusters “r” and “s” to the left is equal to the average length each arrow between connecting the points of one cluster to the other.
 
-![](broken-reference)
+![](<../.gitbook/assets/image (38).png>)
 
 Average-linkage and complete-linkage are the two most popular distance metrics in hierarchical clustering.
 
@@ -74,7 +74,7 @@ Centroid-linkage is the distance between the centroids of two clusters.
 
 As the centroids move with new observations, it is possible that the smaller clusters are more similar to the new larger cluster than to their individual clusters causing an inversion in the dendrogram. This problem doesn’t arise in the other linkage methods because the clusters being merged will always be more similar to themselves than to the new larger cluster.
 
-![](broken-reference)
+![](<../.gitbook/assets/image (9).png>)
 
 ### Hierarchical Clustering
 

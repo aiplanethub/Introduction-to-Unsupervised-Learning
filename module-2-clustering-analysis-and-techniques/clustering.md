@@ -16,7 +16,7 @@ Business goes well and we have about 10,000 customers in our database within a f
 * Oﬀer same deal to all customers
 * Prepare customer-specific deals
 
-![](broken-reference)
+![](<../.gitbook/assets/image (26).png>)
 
 First option is straightforward.
 
@@ -53,7 +53,7 @@ A loose definition of clustering could be “**the process of organizing objects
 
 PS. Clustering is just one type of Unsupervised Learning Algorithms. There exist many more.
 
-![](broken-reference)
+![](<../.gitbook/assets/image (43).png>)
 
 ### Applications of Clustering
 
@@ -94,7 +94,7 @@ These techniques **require the user to specify the number of** **clusters**, ind
 
 These algorithms are both **non-deterministic**, meaning they could produce different results from two separate runs even if the runs were based on the same input.
 
-![](broken-reference)
+![](<../.gitbook/assets/image (46).png>)
 
 Partitional clustering methods have several strengths:
 

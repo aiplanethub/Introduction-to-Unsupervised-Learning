@@ -17,7 +17,7 @@ It is intuitive, easy to implement and fast.
 
 K = number of clusters/ groups you want the data to be divided into.
 
-![](broken-reference)
+![](<../.gitbook/assets/image (36).png>)
 
 ### How does it work?
 
@@ -25,7 +25,7 @@ K-means is unsupervised model so the data is unlabelled. But the model mathemati
 
 Here we have some 2-dimensional unlabelled data that looks like below. All the points are of the same colour(green) i.e they are not segregated into clusters at the moment.
 
-![](broken-reference)
+![](<../.gitbook/assets/image (14).png>)
 
 **STEP 0: Decide the number of clusters (K)**
 
@@ -35,27 +35,27 @@ Let’s choose k=2 (aka. 2 clusters) for this example.
 
 **STEP 1: **Randomly create centroids or points that are supposed to** **be the centers of the clusters (represented by purple). Note that they don’t need to be at the centers initially, they can be placed anywhere.
 
-![](broken-reference)
+![](<../.gitbook/assets/image (7).png>)
 
 **STEP 2: **Each data point is allocated to the nearest centroid
 
-![](broken-reference)
+![](<../.gitbook/assets/image (22).png>)
 
 Initially, our clusters look like below (look at how the data is divided into red and yellow clusters):
 
-![](broken-reference)
+![](<../.gitbook/assets/image (30).png>)
 
 **STEP 3: **Centroids move to the location of the average of points in** **their cluster
 
-![](broken-reference)
+![](<../.gitbook/assets/image (6).png>)
 
 **STEP 4: **Repeat allocating each point to the nearest centroid.
 
-![](broken-reference)
+![](<../.gitbook/assets/image (34).png>)
 
 Which gives us clusters according to our second iteration.
 
-![](broken-reference)
+![](<../.gitbook/assets/image (1).png>)
 
 **STEP 5: **Repeat this process until clusters stop moving
 

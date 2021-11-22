@@ -1,4 +1,4 @@
-# Module 1
+# Module 1: Introduction
 
 ### Learning Objectives
 
@@ -52,7 +52,7 @@ Market segmentation is the practice of dividing consumers into groups based on s
 
 Eg. A vehicle manufacturer that sells a luxury, higher end car brand would likely target an audience that has a higher income.
 
-![](broken-reference)
+![](<.gitbook/assets/image (4).png>)
 
 * **Social Network Analysis(SNA)**
 
@@ -60,7 +60,7 @@ SNA is the mapping and measuring of relationships between people, groups, organi
 
 Eg. Social Network Sites like Facebook use SNA to identify and recommend potential friends based on friends-of-friends.
 
-![](broken-reference)
+![](<.gitbook/assets/image (13).png>)
 
 * **Astronomical Data Analysis**
 
@@ -75,4 +75,4 @@ Unsupervised learning is broadly used for 2 things in Machine Learning:
 1. **Clustering **- deals with finding a structure in a collection of** **unlabeled data.
 2. **Dimensionality Reduction **- techniques that reduce the number of** **input variables in a dataset.
 
-![](broken-reference)
+![](<.gitbook/assets/image (42).png>)

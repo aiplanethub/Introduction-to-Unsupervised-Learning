@@ -46,7 +46,7 @@ There are various kernel methods like linear, polynomial, and gaussian.
 
 * Solution: High-Dimensional Mapping We can make the problem linearly separable by a simple mapping: (from 2 dim to 3 dim)
 
-![](broken-reference)
+![](<../.gitbook/assets/image (32).png>)
 
 ### Kernel Trick
 
@@ -74,8 +74,6 @@ With this, you can extract up to n (number of samples) nonlinear principal compo
 
 Below you can see a sample implementation of Kernel PCA. The kernel used here is linear but there are so many useful kernels you might want to try out.
 
-![](broken-reference)
-
 ### t-distributed Stochastic Neighbor Embedding (tSNE)
 
 t-Distributed Stochastic Neighbor Embedding (t-SNE) is a non-linear technique for dimensionality reduction that is particularly well suited for the **visualization of** **high-dimensional datasets**. It is extensively applied in image** **processing, NLP, genomic data and speech processing.
@@ -86,7 +84,7 @@ t-SNE basically decreases the multi-dimension to 2d or 3d dimensions such that i
 
 ### Visualizing 784 dimensions in 2d using t-SNE
 
-![](broken-reference)
+![](<../.gitbook/assets/image (3).png>)
 
 ### t-SNE Detailed Explanation
 

@@ -80,25 +80,25 @@ If the clustering had been perfect, we’d expect each row and each column of th
 
 ### Matrix Representation for Algo 1
 
-![](broken-reference)
+![](<../.gitbook/assets/image (20).png>)
 
 The default ‘ward’ linkage, which tries to minimise variance within clusters, has done a good job with all four genres, though there is some leakage into cluster B i.e in the 2nd column, there are entries in multiple clusters and not just one.
 
 ### Matrix Representation for Algo 2
 
-![](broken-reference)
+![](<../.gitbook/assets/image (28).png>)
 
 ‘Complete’ linkage has clearly not worked well. It has placed a lot of the dataset into cluster A. Cluster C consists of one single rap song.
 
 ### Matrix Representation for Algo 3
 
-![](broken-reference)
+![](<../.gitbook/assets/image (31).png>)
 
 ‘Average’ linkage has similar issues to ‘Complete’ linkage. Many data points have been placed into a single cluster, with two clusters consisting of a single song.
 
 ### Matrix Representation for Algo 4
 
-![](broken-reference)
+![](<../.gitbook/assets/image (39).png>)
 
 As with the HAC algorithm using ‘ward’ linkage, K-Means clustering has done a good job across most of the algorithms, with some jazz and rap songs being ‘mistaken’ for K-Pop.
 
@@ -112,7 +112,7 @@ The Adjusted Rand Index attempts to express what proportion of the cluster assig
 
 This (as well as the other metrics we’ll consider) can be evaluated using Scikit-Learn.
 
-![](broken-reference)
+![](<../.gitbook/assets/image (29).png>)
 
 The Adjusted Rand index is bounded between -1 and 1. Closer to 1 is good, while closer to -1 is bad.
 

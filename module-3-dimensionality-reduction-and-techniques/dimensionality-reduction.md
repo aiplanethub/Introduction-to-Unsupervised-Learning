@@ -27,7 +27,7 @@ In short, Feature Importance Scores are used for performing Feature Selection
 
 Suppose we’re working on the Iris Classification. We’ll first create a baseline model using Logistic Regression. Now, we want to try out Feature Selection and try to improve our model’s performance. On plotting feature importance scores, we obtain the below graph:
 
-![](broken-reference)
+![](<../.gitbook/assets/image (41).png>)
 
 * Feature Importance Scores tell us that Petal width and length are the the top 2 features. The rest have a much lower importance score.
 * We’ll select these 2 features.
@@ -45,7 +45,7 @@ Feature extraction is the name for methods that **select and** **/or combine var
 
 ### Feature Extraction and Selection
 
-![](broken-reference)
+![](<../.gitbook/assets/image (11).png>)
 
 **Feature selection** — Selecting the most relevant attributes
 
@@ -63,7 +63,7 @@ There’s something known as “_The curse of dimensionality_”. In machine lea
 
 “dimensionality” = number of features (i.e. input variables) in your dataset.
 
-![](broken-reference)
+![](<../.gitbook/assets/image (18).png>)
 
 When the number of features is very large relative to the number of observations(rows) in your dataset, certain algorithms struggle to train eﬀective models. This is called the **Curse of Dimensionality**.
 
@@ -103,7 +103,7 @@ This is where dimensionality reduction algorithms come into play.
 
 ### Dimensionality Reduction Methods
 
-![](broken-reference)
+![](<../.gitbook/assets/image (23).png>)
 
 The various methods used for dimensionality reduction include, but are not limited to:
 

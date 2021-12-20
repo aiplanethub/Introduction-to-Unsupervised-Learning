@@ -33,7 +33,7 @@ We decide to prepare customer-specific deals.
 
 Next step is to decide what kind of deals to oﬀer. We cannot just create a diﬀerent deal for each customer. That is simply not manageable.
 
-**A wise option could be detecting customers with similar interests or purchasing behavior and group them. **The** **criteria for grouping can be customer preferences, tastes, interests, customer-service combinations and so on.
+**A wise option could be detecting customers with similar interests or purchasing behavior and group them.** The **** criteria for grouping can be customer preferences, tastes, interests, customer-service combinations and so on.
 
 It is extremely difficult to group customers manually. Then we ask machine learning for help. The task of grouping similar customers is called **clustering**.
 
@@ -49,7 +49,7 @@ Cluster analysis or clustering is the task of grouping a set of objects in such 
 
 Clustering can be considered the most important unsupervised learning problem.It deals with finding a structure in a collection of unlabelled data.
 
-A loose definition of clustering could be “**the process of organizing objects** **into groups whose members are similar in some way**”. A cluster is therefore** **a collection of objects which are “similar” between them and are “dissimilar” to the objects belonging to other clusters.
+A loose definition of clustering could be “**the process of organizing objects** **into groups whose members are similar in some way**”. A cluster is therefore **** a collection of objects which are “similar” between them and are “dissimilar” to the objects belonging to other clusters.
 
 PS. Clustering is just one type of Unsupervised Learning Algorithms. There exist many more.
 
@@ -90,7 +90,7 @@ You’ll explore how these factors help determine which approach is most appropr
 
 Partitional clustering divides data objects into non-overlapping groups. In other words, **no object can be a member of more** **than one cluster, and every cluster must have at least one object.**
 
-These techniques **require the user to specify the number of** **clusters**, indicated by the variable** k**. Many partitional clustering** **algorithms work through an iterative process to assign subsets of data points into k clusters. Two examples of partitional clustering algorithms are **k-means** and **k-medoids**.
+These techniques **require the user to specify the number of** **clusters**, indicated by the variable **k**. Many partitional clustering **** algorithms work through an iterative process to assign subsets of data points into k clusters. Two examples of partitional clustering algorithms are **k-means** and **k-medoids**.
 
 These algorithms are both **non-deterministic**, meaning they could produce different results from two separate runs even if the runs were based on the same input.
 
@@ -110,12 +110,12 @@ They also have several weaknesses:
 
 Hierarchical clustering determines cluster assignments by building a hierarchy. This is implemented by either a bottom-up or a top-down approach:
 
-* **Agglomerative clustering **is the bottom-up approach. It** **merges the two points that are the most similar until all points have been merged into a single cluster.
-* **Divisive clustering **is the top-down approach. It starts with** **all points as one cluster and splits the least similar clusters at each step until only single data points remain.
+* **Agglomerative clustering** is the bottom-up approach. It **** merges the two points that are the most similar until all points have been merged into a single cluster.
+* **Divisive clustering** is the top-down approach. It starts with **** all points as one cluster and splits the least similar clusters at each step until only single data points remain.
 
 ![](https://lh6.googleusercontent.com/H70oWjsZOtena3GuEBOD0kt6S1zW44s405V7wToc5mL7MjJ4D8vsIcHtGGeX9AFybBL1NJ8gXBRxlmMPYw-iliXO5MVDOgSk8K0u8aAZ69sxn6eispSjfSlDF5mq2uHeVFPycrzO80Q)
 
-These methods produce a tree-based hierarchy of points called a **dendrogram**. Similar to partitional clustering, in hierarchical** **clustering the **number of clusters (k) is often predetermined** **by the user**. Clusters are assigned by cutting the dendrogram at** **a specified depth that results in k groups of smaller dendrograms.
+These methods produce a tree-based hierarchy of points called a **dendrogram**. Similar to partitional clustering, in hierarchical **** clustering the **number of clusters (k) is often predetermined** **by the user**. Clusters are assigned by cutting the dendrogram at **** a specified depth that results in k groups of smaller dendrograms.
 
 Unlike many partitional clustering techniques, hierarchical clustering is a **deterministic process**, meaning cluster assignments won’t change when you run an algorithm twice on the same input data.
 
@@ -131,11 +131,11 @@ The weaknesses of hierarchical clustering methods include the following:
 
 ### Density-Based Clustering
 
-Density-based clustering determines cluster assignments **based** **on the density of data points in a region**. Clusters are assigned** **where there are high densities of data points separated by low-density regions.
+Density-based clustering determines cluster assignments **based** **on the density of data points in a region**. Clusters are assigned **** where there are high densities of data points separated by low-density regions.
 
-Unlike the other clustering categories, this approach **doesn’t** **require the user to specify the number of clusters **. Instead,** **there is a **distance-based parameter that acts as a tunable** **threshold**. This threshold determines how close points must be** **to be considered a cluster member.
+Unlike the other clustering categories, this approach **doesn’t** **require the user to specify the number of clusters** . Instead, **** there is a **distance-based parameter that acts as a tunable** **threshold**. This threshold determines how close points must be **** to be considered a cluster member.
 
-Examples of density-based clustering algorithms include Density-Based Spatial Clustering of Applications with Noise, or **DBSCAN**, and Ordering Points To Identify the Clustering** **Structure, or **OPTICS**.
+Examples of density-based clustering algorithms include Density-Based Spatial Clustering of Applications with Noise, or **DBSCAN**, and Ordering Points To Identify the Clustering **** Structure, or **OPTICS**.
 
 ![](https://lh3.googleusercontent.com/Inkn9aO06yR4qguhT5ByEaphrljGRThI6GvHiekDeJRbjUjXcsoigln7RULtARVukWr\_-ZpYKVJ0twGkWylUpbY0aVlEuM93gf4s6k3ZcrC7mX6YMV0S3ooLshkSyoXp5nzOiKUktGQ)
 

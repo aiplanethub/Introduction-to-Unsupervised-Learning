@@ -9,18 +9,18 @@
 
 ### Non-linear Dimensionality Reduction Methods
 
-Non-linear transformation methods also known as **manifold** **learning methods **are used when the data doesn’t lie on a linear** **subspace. It is based on the **manifold hypothesis** which says that **in a high dimensional structure, most relevant** **information is concentrated in small number of low dimensional manifolds**.
+Non-linear transformation methods also known as **manifold** **learning methods** are used when the data doesn’t lie on a linear **** subspace. It is based on the **manifold hypothesis** which says that **in a high dimensional structure, most relevant** **information is concentrated in small number of low dimensional manifolds**.
 
 If a linear subspace is a flat sheet of paper, then a rolled up sheet of paper is a simple example of a nonlinear manifold. Informally, this is called a Swiss roll, a canonical problem in the field of non-linear dimensionality reduction.
 
 Some popular manifold learning methods are:
 
-1. **Multi-dimensional scaling (MDS) : **A technique used for** **analyzing similarity or dissimilarity of data as distances in a geometric spaces. Projects data to a lower dimension such that data points that are close to each other (in terms if Euclidean distance) in the higher dimension are close in the lower dimension as well.
-2. **Isometric Feature Mapping (Isomap) : **Projects data to a lower** **dimension while preserving the geodesic distance (rather than Euclidean distance as in MDS). Geodesic distance is the shortest distance between two points on a curve.
-3. **Locally Linear Embedding (LLE) : **Recovers global non-linear** **structure from linear fits. Each local patch of the manifold can be written as a linear, weighted sum of its neighbours given enough data.
-4. **Hessian Eigenmapping (HLLE) : **Projects data to a lower** **dimension while preserving the local neighbourhood like LLE but uses the Hessian operator (a mathematical operator you don’t need to worry about right now) to better achieve this result and hence the name.
-5. **Spectral Embedding (Laplacian Eigenmaps) : **Uses spectral** **techniques to perform dimensionality reduction by mapping nearby inputs to nearby outputs. It preserves locality rather than local linearity
-6. **t-distributed Stochastic Neighbor Embedding (t-SNE) : **Computes the probability that pairs of data points in the high-dimensional space are related and then chooses a low-dimensional embedding which produce a similar distribution.
+1. **Multi-dimensional scaling (MDS) :** A technique used for **** analyzing similarity or dissimilarity of data as distances in a geometric spaces. Projects data to a lower dimension such that data points that are close to each other (in terms if Euclidean distance) in the higher dimension are close in the lower dimension as well.
+2. **Isometric Feature Mapping (Isomap) :** Projects data to a lower **** dimension while preserving the geodesic distance (rather than Euclidean distance as in MDS). Geodesic distance is the shortest distance between two points on a curve.
+3. **Locally Linear Embedding (LLE) :** Recovers global non-linear **** structure from linear fits. Each local patch of the manifold can be written as a linear, weighted sum of its neighbours given enough data.
+4. **Hessian Eigenmapping (HLLE) :** Projects data to a lower **** dimension while preserving the local neighbourhood like LLE but uses the Hessian operator (a mathematical operator you don’t need to worry about right now) to better achieve this result and hence the name.
+5. **Spectral Embedding (Laplacian Eigenmaps) :** Uses spectral **** techniques to perform dimensionality reduction by mapping nearby inputs to nearby outputs. It preserves locality rather than local linearity
+6. **t-distributed Stochastic Neighbor Embedding (t-SNE) :** Computes the probability that pairs of data points in the high-dimensional space are related and then chooses a low-dimensional embedding which produce a similar distribution.
 
 Kernel PCA, Isomap and many more..
 
@@ -76,7 +76,7 @@ Below you can see a sample implementation of Kernel PCA. The kernel used here is
 
 ### t-distributed Stochastic Neighbor Embedding (tSNE)
 
-t-Distributed Stochastic Neighbor Embedding (t-SNE) is a non-linear technique for dimensionality reduction that is particularly well suited for the **visualization of** **high-dimensional datasets**. It is extensively applied in image** **processing, NLP, genomic data and speech processing.
+t-Distributed Stochastic Neighbor Embedding (t-SNE) is a non-linear technique for dimensionality reduction that is particularly well suited for the **visualization of** **high-dimensional datasets**. It is extensively applied in image **** processing, NLP, genomic data and speech processing.
 
 Until recently, it was actually the best state of the art / best dimensional technique. Now, it has been replaced by a better and faster technique called **UMAP**.
 
@@ -98,14 +98,14 @@ t-SNE is present as a package in sklearn’s manifold library. A simple implemen
 
 ### t-SNE Strengths
 
-* **Works well for Non-Linear data: **It is able to interpret the complex relationship between features and represent similar data points in high dimension to close together in low dimension.
-* **Preserves Local and Global Structure: **t-SNE is capable to preserve the local and global structure of the data. This means, points that are close to one another in the high-dimensional dataset, will tend to be close to one another in the low dimension.
+* **Works well for Non-Linear data:** It is able to interpret the complex relationship between features and represent similar data points in high dimension to close together in low dimension.
+* **Preserves Local and Global Structure:** t-SNE is capable to preserve the local and global structure of the data. This means, points that are close to one another in the high-dimensional dataset, will tend to be close to one another in the low dimension.
 
 ### t-SNE Weakness
 
-* **Dimensionality reduction for other purposes: **ex: BAD for feature selection/feature extraction because it is based on probability distribution -> only for visualization!
-* **Curse of intrinsic dimensionality (sensitive to intrinsic dimension): **Intrinsic Dimension is the no. of variables are needed to generate a good approximation of the signal. Performs badly if high dimensional data actually have high intrinsic dimension.
-* **Non-convexity of the t-SNE cost function: **several optimization parameters need to be chosen
+* **Dimensionality reduction for other purposes:** ex: BAD for feature selection/feature extraction because it is based on probability distribution -> only for visualization!
+* **Curse of intrinsic dimensionality (sensitive to intrinsic dimension):** Intrinsic Dimension is the no. of variables are needed to generate a good approximation of the signal. Performs badly if high dimensional data actually have high intrinsic dimension.
+* **Non-convexity of the t-SNE cost function:** several optimization parameters need to be chosen
 
 ### t-SNE Resources
 
@@ -113,7 +113,7 @@ Here’s an amazing article you can go through to understand t-SNE in detail: [h
 
 ### Self-Organizing Map (SOM) or Self-Organizing Feature Map (SOFM)
 
-A self-organizing map (SOM) is a type of artificial neural network (ANN) that is trained using unsupervised learning to produce a **low-dimensional (typically two-dimensional), discretized representation of the input space of the training samples**,** **called a **map**, and is therefore a method to do dimensionality reduction.
+A self-organizing map (SOM) is a type of artificial neural network (ANN) that is trained using unsupervised learning to produce a **low-dimensional (typically two-dimensional), discretized representation of the input space of the training samples**, **** called a **map**, and is therefore a method to do dimensionality reduction.
 
 Self-organizing maps diﬀer from other artificial neural networks as they apply **competitive learning** as opposed to error-correction learning (such as backpropagation with gradient descent), and in the sense that they use a neighborhood function to preserve the topological properties of the input space.
 

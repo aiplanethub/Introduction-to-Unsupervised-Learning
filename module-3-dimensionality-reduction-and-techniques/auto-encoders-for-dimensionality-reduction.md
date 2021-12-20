@@ -17,8 +17,8 @@ Its procedure starts compressing the original data into a shortcode ignoring noi
 
 An autoencoder is composed of two parts :
 
-1. **Encoder: **compresses the input into a latent-space** **representation.
-2. **Decoder: **reconstruct the input from the latent space** **representation.
+1. **Encoder:** compresses the input into a latent-space **** representation.
+2. **Decoder:** reconstruct the input from the latent space **** representation.
 
 ![](<../.gitbook/assets/image (16).png>)
 

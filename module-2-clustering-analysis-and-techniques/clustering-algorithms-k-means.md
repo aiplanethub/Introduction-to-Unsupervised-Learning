@@ -33,11 +33,11 @@ Upon initializing the model, we must pre-decide on a number of clusters. Having 
 
 Let’s choose k=2 (aka. 2 clusters) for this example.
 
-**STEP 1: **Randomly create centroids or points that are supposed to** **be the centers of the clusters (represented by purple). Note that they don’t need to be at the centers initially, they can be placed anywhere.
+**STEP 1:** Randomly create centroids or points that are supposed to **** be the centers of the clusters (represented by purple). Note that they don’t need to be at the centers initially, they can be placed anywhere.
 
 ![](<../.gitbook/assets/image (7).png>)
 
-**STEP 2: **Each data point is allocated to the nearest centroid
+**STEP 2:** Each data point is allocated to the nearest centroid
 
 ![](<../.gitbook/assets/image (22).png>)
 
@@ -45,11 +45,11 @@ Initially, our clusters look like below (look at how the data is divided into re
 
 ![](<../.gitbook/assets/image (30).png>)
 
-**STEP 3: **Centroids move to the location of the average of points in** **their cluster
+**STEP 3:** Centroids move to the location of the average of points in **** their cluster
 
 ![](<../.gitbook/assets/image (6).png>)
 
-**STEP 4: **Repeat allocating each point to the nearest centroid.
+**STEP 4:** Repeat allocating each point to the nearest centroid.
 
 ![](<../.gitbook/assets/image (34).png>)
 
@@ -57,7 +57,7 @@ Which gives us clusters according to our second iteration.
 
 ![](<../.gitbook/assets/image (1).png>)
 
-**STEP 5: **Repeat this process until clusters stop moving
+**STEP 5:** Repeat this process until clusters stop moving
 
 That is, when 2 consecutive times you get the same clusters, there’s no need to repeat the steps.
 
@@ -134,7 +134,7 @@ Silhouette value measures how similar a point is to its own cluster (cohesion) c
 * A high value is desirable and indicates that the point is placed in the correct cluster.
 * If many points have a negative Silhouette value, it may indicate that we have created too many or too few clusters.
 
-We mentioned before that a high Silhouette Score is desirable. **The** **Silhouette Score reaches its global maximum at the optimal k. **This** **should ideally appear as a peak in the Silhouette Value-versus-k plot.
+We mentioned before that a high Silhouette Score is desirable. **The** **Silhouette Score reaches its global maximum at the optimal k.** This **** should ideally appear as a peak in the Silhouette Value-versus-k plot.
 
 Here is one such plot:
 

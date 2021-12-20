@@ -108,7 +108,7 @@ As the centroids move with new observations, it is possible that the smaller clu
 
 * We can clearly visualize the steps of hierarchical clustering.
 * More the distance of the vertical lines in the dendrogram, more the distance between those clusters.
-* Once one big cluster is formed, the longest vertical distance without any horizontal line passing through it is selected and a horizontal line is drawn through it. **The number of vertical lines this newly** **created horizontal line passes is equal to number of clusters**.** **Take a look at the following plot:
+* Once one big cluster is formed, the longest vertical distance without any horizontal line passing through it is selected and a horizontal line is drawn through it. **The number of vertical lines this newly** **created horizontal line passes is equal to number of clusters**. **** Take a look at the following plot:
 
 ![](https://lh5.googleusercontent.com/IfsFRSklLszl0-diYTZIcsJzwhCQ0GpSa1CDu\_F0jQZillcNplOoo7wchYO94eURNJ3GyhxuWU14os4cqjQ2mpB3BC-ECoRDPbqqS6qY7ewvydFh-p35gJE3uK3G-UwROZUwFWVxFuA)
 

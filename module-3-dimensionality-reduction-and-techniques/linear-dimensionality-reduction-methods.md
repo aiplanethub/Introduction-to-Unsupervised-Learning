@@ -10,10 +10,10 @@
 
 The most common and well known dimensionality reduction methods are the ones that apply linear transformations, like:
 
-1. **PCA (Principal Component Analysis) : **Popularly used for** **dimensionality reduction in continuous data, PCA rotates and projects data along the direction of increasing variance. The features with the maximum variance are the principal components.
-2. **Factor Analysis : **a technique that is used to reduce a large** **number of variables into fewer numbers of factors. The values of observed data are expressed as functions of a number of possible causes in order to find which are the most important. The observations are assumed to be caused by a linear transformation of lower dimensional latent factors and added Gaussian noise.
-3. **LDA (Linear Discriminant Analysis) : **projects data in a way** **that the class separability is maximised. Examples from same class are put closely together by the projection. Examples from different classes are placed far apart by the projection.
-4. **ICA (Independent Component Analysis) : **transforms the** **dataset into columns of independent components. Blind Source Separation and the "cocktail party problem" are other names for it.
+1. **PCA (Principal Component Analysis) :** Popularly used for **** dimensionality reduction in continuous data, PCA rotates and projects data along the direction of increasing variance. The features with the maximum variance are the principal components.
+2. **Factor Analysis :** a technique that is used to reduce a large **** number of variables into fewer numbers of factors. The values of observed data are expressed as functions of a number of possible causes in order to find which are the most important. The observations are assumed to be caused by a linear transformation of lower dimensional latent factors and added Gaussian noise.
+3. **LDA (Linear Discriminant Analysis) :** projects data in a way **** that the class separability is maximised. Examples from same class are put closely together by the projection. Examples from different classes are placed far apart by the projection.
+4. **ICA (Independent Component Analysis) :** transforms the **** dataset into columns of independent components. Blind Source Separation and the "cocktail party problem" are other names for it.
 
 Some other linear dimensionality reduction methods include canonical correlations analysis, maximum autocorrelation factors, undercomplete independent component analysis, distance metric learning, and more.
 
@@ -53,7 +53,7 @@ This is what essentially PCA does, it finds best linear combinations of the orig
 2. Do you want to ensure your variables are independent of one another?
 3. Are you comfortable making your independent variables less interpretable?
 
-If you answered “yes” to all three questions, then PCA is a good method to use. If you answered “no” to question 3, you **should not **use PCA.
+If you answered “yes” to all three questions, then PCA is a good method to use. If you answered “no” to question 3, you **should not** use PCA.
 
 Some more particular use cases for PCA include:
 
@@ -126,7 +126,7 @@ ICA is a method for dimensionality reduction similar to PCA in the sense that it
 
 But while PCA tries to maximize variance, ICA assumes that the features are mixtures of independent sources and it tries to isolate these independent sources that are mixed in the dataset.
 
-The motivation behind ICA would be **to take the original set of** **features and try to identify those of them that contribute independently to the dataset, in other words, those with the least correlation to the other features. **So** it will isolate those most important components**. This problem is called** Blind Source Isolation.**
+The motivation behind ICA would be **to take the original set of** **features and try to identify those of them that contribute independently to the dataset, in other words, those with the least correlation to the other features.** So **it will isolate those most important components**. This problem is called **Blind Source Isolation.**
 
 {% embed url="https://youtu.be/2WY7wCghSVI" %}
 

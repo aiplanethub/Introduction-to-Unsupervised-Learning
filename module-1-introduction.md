@@ -72,7 +72,7 @@ Eg. Social Network Sites like Facebook use SNA to identify and recommend potenti
 
 Unsupervised learning is broadly used for 2 things in Machine Learning:
 
-1. **Clustering **- deals with finding a structure in a collection of** **unlabeled data.
-2. **Dimensionality Reduction **- techniques that reduce the number of** **input variables in a dataset.
+1. **Clustering** - deals with finding a structure in a collection of **** unlabeled data.
+2. **Dimensionality Reduction** - techniques that reduce the number of **** input variables in a dataset.
 
 ![](<.gitbook/assets/image (42).png>)

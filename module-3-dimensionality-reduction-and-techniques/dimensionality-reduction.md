@@ -15,13 +15,13 @@
 
 Gone are the days when you had 5 variables to fit your linear regression: Modern datasets contain more variables/features to choose from. A dataset with 50 or more features -> more than 1 million observations.
 
-**Solution: **Dimensionality Reduction using Feature Selection and** **Feature Extraction
+**Solution:** Dimensionality Reduction using Feature Selection and **** Feature Extraction
 
 ### Feature Importance and Feature Selection
 
-**Feature Importance **refers to techniques that assign a score to** **input features based on how useful they are at predicting a target variable.
+**Feature Importance** refers to techniques that assign a score to **** input features based on how useful they are at predicting a target variable.
 
-**Feature Selection **is the process where you automatically or** **manually select features which contribute most to your target variable.
+**Feature Selection** is the process where you automatically or **** manually select features which contribute most to your target variable.
 
 In short, Feature Importance Scores are used for performing Feature Selection
 
@@ -37,11 +37,11 @@ Suppose we’re working on the Iris Classification. We’ll first create a basel
 
 ### Feature Extraction
 
-**Feature Extraction **is a feature reduction process. Unlike** **feature selection, which ranks the existing attributes according to their significance, feature extraction **actually** **transforms the features**.
+**Feature Extraction** is a feature reduction process. Unlike **** feature selection, which ranks the existing attributes according to their significance, feature extraction **actually** **transforms the features**.
 
 The key difference between feature selection and extraction is that feature selection keeps a subset of the original features while feature extraction creates brand new ones.
 
-Feature extraction is the name for methods that **select and** **/or combine variables into features**, effectively reducing** **the amount of data that must be processed, while still accurately and completely describing the original data set.
+Feature extraction is the name for methods that **select and** **/or combine variables into features**, effectively reducing **** the amount of data that must be processed, while still accurately and completely describing the original data set.
 
 ### Feature Extraction and Selection
 
@@ -95,11 +95,11 @@ This is where dimensionality reduction algorithms come into play.
 
 ### Benefits of performing Dimensionality Reduction
 
-* **Reduces Overfitting: **Less redundant data means less** **opportunity to make decisions based on noise(irrelevant data).
-* **Improves Model Performance: **Less misleading data means our** **model’s performance improves.
-* **Reduces Training Time: **Less data means that algorithms train** **faster.
-* **Utilize Unlabelled Data: **Most of features extraction techniques** **are unsupervised. You can train your autoencoder or fit your PCA on unlabeled data. This can be helpful if you have a lot of unlabeled data and labeling is time-consuming and expensive.
-* **Better Visualization: **Reducing the dimensions of data to 2D or** **3D may allow us to plot and visualize it precisely. You can then observe patterns more clearly.
+* **Reduces Overfitting:** Less redundant data means less **** opportunity to make decisions based on noise(irrelevant data).
+* **Improves Model Performance:** Less misleading data means our **** model’s performance improves.
+* **Reduces Training Time:** Less data means that algorithms train **** faster.
+* **Utilize Unlabelled Data:** Most of features extraction techniques **** are unsupervised. You can train your autoencoder or fit your PCA on unlabeled data. This can be helpful if you have a lot of unlabeled data and labeling is time-consuming and expensive.
+* **Better Visualization:** Reducing the dimensions of data to 2D or **** 3D may allow us to plot and visualize it precisely. You can then observe patterns more clearly.
 
 ### Dimensionality Reduction Methods
 

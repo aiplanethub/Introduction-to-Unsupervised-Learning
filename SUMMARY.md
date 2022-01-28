@@ -12,5 +12,5 @@
   * [Linear Dimensionality Reduction Methods](module-3-dimensionality-reduction-and-techniques/linear-dimensionality-reduction-methods.md)
   * [Non - Linear Dimensionality Reduction Methods](module-3-dimensionality-reduction-and-techniques/non-linear-dimensionality-reduction-methods.md)
   * [Auto-Encoders for Dimensionality Reduction](module-3-dimensionality-reduction-and-techniques/auto-encoders-for-dimensionality-reduction.md)
-* [Optional (Additional Resources)](optional-additional-resources.md)
+* [(Optional): Additional Resources](optional-additional-resources.md)
 * [Final Assignment](final-assignment.md)

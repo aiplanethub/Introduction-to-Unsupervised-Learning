@@ -12,7 +12,7 @@ In this 10-day bootcamp, there will be:
 
 ### Learning Modules:
 
-* All the learning modules will be released on 25th February at 6:00 PM CET/ 10:30 PM IST.
+* All the learning modules will be released on 29th April at 7:00 PM CET/ 10:30 PM IST.
 * To accommodate learners from across the globe, we are putting the learning modules in offline format instead of having live sessions. This will allow you to learn at your own time.
 * If you face any issues while learning, feel free to drop a message on #help channel on [Discord](https://discord.gg/E2XfSEYm2W).
 
